@@ -1,0 +1,28 @@
+@media (min-width: 748px) and (max-width: 999px){
+    #datos ul li{
+        list-style-type: none;
+    }
+}
+   
+
+@media (max-width: 768px) {
+    h2{
+        border-bottom: 1px solid black;
+    }
+    li strong {
+        display: block;
+    }
+    #formacion ul li{
+        list-style-type: none;
+        margin-left: -25px;
+    }
+    #exp ul li{
+        list-style-type: none;
+        margin-left: -25px;
+    }
+    #datos ul li{
+        list-style-type: none;
+        margin-left: -25px;
+    }
+    
+}

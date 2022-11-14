@@ -1,0 +1,16 @@
+.rosa{
+    background-color: pink;
+}
+.azul {
+    background-color: cadetblue;
+}
+.morado {
+    background-color: purple;
+}
+
+div{
+    border: 1px solid white;
+}
+.cajas {
+    height: 200px;
+}

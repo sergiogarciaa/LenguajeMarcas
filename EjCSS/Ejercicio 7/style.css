@@ -1,0 +1,58 @@
+fieldset {
+    margin: 1em auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+h1,h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+/* Cambiar color a lo que tenga clickado */
+input:focus,
+select:focus {
+    background-color: yellow;
+}
+/*-----------------------------------------------*/
+
+#crear {
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.inline {
+    display: inline;
+}
+
+/* Cambiar de color al pasar el raton por encima */
+input:hover,
+select:hover {
+        background-color: red;
+}
+/*-----------------------------------------------*/
+.centrado {
+    text-align: center;
+}

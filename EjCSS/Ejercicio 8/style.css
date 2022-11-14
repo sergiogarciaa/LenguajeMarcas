@@ -1,0 +1,15 @@
+.sinelementografico{
+    list-style-type: none;
+}
+.concirculos{
+    list-style-type: circle;
+}
+.concuadrados{
+    list-style-type: square;
+}
+.numerosromanos{
+    list-style-type: lower-roman;
+}
+.letrasgriegas{
+    list-style-type:lower-greek;
+}

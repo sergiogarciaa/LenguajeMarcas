@@ -1,0 +1,13 @@
+.segundoTercero {
+    color:steelblue;
+    text-align: right;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#encabezados1Y2 {
+    border-color: rgb(0, 255, 157);
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+}

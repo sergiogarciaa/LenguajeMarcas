@@ -1,0 +1,16 @@
+h2::first-letter{
+    font-size: 2em;
+}
+
+h2+p{
+    text-indent: 2em;
+}
+
+a::before{
+    content: "→ ";
+}
+
+abbr:after {
+    content: " (" attr(title) ")";
+    font-style: italic;
+  }

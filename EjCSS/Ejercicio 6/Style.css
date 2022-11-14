@@ -1,0 +1,43 @@
+table{
+    border: lightgray 1px solid;
+}
+
+th, td {
+    border:1px solid;
+    padding: 6px;
+}
+
+#titulos {
+    background-color: #f2f2f2;
+}
+
+.monedas{
+    background-color: #e5f3fe;
+}
+
+.amarilloclaro {
+    background-color: #ffffcc;
+}
+
+td{
+    text-align: right;
+}
+
+tr:hover{
+    background-color: #ffff6a;
+}
+img{
+    width: 12.5px;
+}
+
+.dolar{
+    width: 15px;
+}
+
+.libra{
+    width: 25px;
+}
+
+.yen{
+    width: 25px;
+}

@@ -1,0 +1,12 @@
+body {
+    background:aqua;
+    font-family:verdana;
+    text-align:center;
+    color:blue;
+}
+.plata {
+    background:silver;
+}
+.derecha {
+    text-align: right; font-size:20px;
+}

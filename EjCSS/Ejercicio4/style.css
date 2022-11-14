@@ -1,0 +1,25 @@
+*{
+    max-width: 950px;
+}
+#cabecera{
+    font-size: 2em;
+    margin-bottom: 0,5em;
+}
+.linea{
+    text-decoration: none;
+    color: blue;
+}
+h2{
+    color: red;
+    font-family: Verdana;
+}
+#contenido{
+    border: 3px solid red;
+    background-color: grey;
+}
+p{
+    color: white;
+}
+a:hover{
+    color: black;
+}
