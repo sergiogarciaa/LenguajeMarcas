@@ -2,8 +2,24 @@ h1{
     padding-bottom: 20px;
     text-align: center;
 }
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 992px){
+    #contenido ul li{
+        list-style-type: none;
+        display: inline;
+    }
+    #contenido ul {
+        margin-left: -30px;
+    }
+}
+@media (max-width: 576px){
     #datos ul li{
         list-style-type: none;
+        display: inline;
+    }
+    #datos ul{
+        margin-left: -30px;
+    }
+    #datos ul li:after{
+        content: "; ";
     }
 }
