@@ -1,0 +1,58 @@
+.N1, .N2, .N3{
+ border: 15px solid white;
+ text-align: center;
+ height: 200px;
+ background-color: red;
+}
+
+.Header{
+  text-align: left;
+  background-color: green;
+}
+
+.footer {
+  background-color: yellow;
+  border: 15px solid white;
+  text-align: left;
+}
+#footer1{
+  text-align: right;
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .footer, #footer1{
+    text-align: center;
+  }
+  .N1{
+    text-align: left;
+  }
+  .N2{
+    text-align: right;
+  }
+  .N3{
+    text-align: center;
+    background-color: lightgreen;
+  }
+  .Header{
+    background-color: cyan;
+  }
+}
+@media (max-width: 768px) {
+  .Header{
+    text-align: center;
+    background-color: salmon;
+  }
+  .N1{
+    text-align: left;
+  }
+  .N2{
+    background-color: cyan;
+    text-align: center;
+  }
+  .N3{
+    background-color: red;
+    text-align: right;
+  }
+  .footer, #footer1{
+    text-align: center;
+  }
+}
