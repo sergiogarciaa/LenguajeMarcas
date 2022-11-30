@@ -1,0 +1,43 @@
+#logo{
+    height: 60px;
+}
+#navegador{
+    margin-left: 25px;
+}
+/* Media query para SM */
+@media(max-width: 576px){
+    #logo{
+
+        height: 120px;
+    }
+    #buscarencontrar{
+        margin-left: -15px;
+        text-align: center;
+    }
+}
+/* Inicio de sesión */
+
+.formulario{
+    padding-top: 15px;
+}
+.margenizq{
+    margin-left: 20%;
+}
+@media(max-width: 576px){
+    .cuerpo{
+        display: block!important;
+    }
+    .formulario{
+        height: max-content;
+        display: inline;
+    }
+    .carrusel{
+        height: max-content;
+        display: inline;
+        margin-left: 15%;
+    }
+    #buscarencontrar{
+        margin-left: -15px;
+        text-align: center;
+    }
+}
