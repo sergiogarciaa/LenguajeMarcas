@@ -1,121 +1,156 @@
 #logo {
-  height: 95px;
-}
-
-.navegador {
-  margin-left: 25px;
-}
-
-#buscarencontrar {
-  text-align: center;
-}
-
-/* Media query hasta MD sin incluirlo*/
-@media (max-width: 798px) {
-
-  #buscarencontrar {
-    margin-left: -15px;
+    height: 95px;
   }
-}
-
-/* Inicio de sesión */
-
-.cuerpo {
-  padding-top: 8%;
-}
-
-.formulario {
-  background: linear-gradient(grey), (rgb(41, 41, 41));
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgb(138, 138, 138, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
-
-/* Media query hasta MD sin incluirlo*/
-@media (max-width: 798px) {
+  
+  .navegador {
+    margin-left: 25px;
+  }
+  
+  #buscarencontrar {
+    text-align: center;
+  }
+  
+  /* Media query hasta MD sin incluirlo*/
+  @media (max-width: 798px) {
+  
+    #buscarencontrar {
+      margin-left: -15px;
+    }
+  }
+  
+  /* Inicio de sesión */
+  
   .cuerpo {
-    display: block !important;
+    padding-top: 8%;
   }
-
+  
   .formulario {
-    height: max-content;
-    display: inline;
+    background: linear-gradient(grey), (rgb(41, 41, 41));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgb(138, 138, 138, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  /* Media query hasta MD sin incluirlo*/
+  @media (max-width: 798px) {
+    .cuerpo {
+      display: block !important;
+    }
+  
+    .formulario {
+      height: max-content;
+      display: inline;
+    }
+  
+    /* .carrusel{
+          height: max-content;
+          display: inline;
+          margin-left: 15%;
+      } */
+    #buscarencontrar {
+      margin-left: -15px;
+      text-align: center;
+    }
+  }
+  
+  video {
+    position: fixed;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    z-index: -10;
+  }
+  
+  /* WEB 2 */
+  
+  .margenizq {
+    margin-left: 20%;
+  }
+  
+  .salir {
+    text-align: center;
+  }
+  
+  .formularionav {
+    display: inline-flex;
+  }
+  
+  /* Query hasta MD */
+  @media (max-width: 798px) {
+    .navegador {
+      height: max-content;
+      display: inline-flex;
+    }
+  
+    #conocenos,
+    .formularionav {
+      display: inline-flex;
+    }
+    .navbar-nav {
+      display: -webkit-box;
+    }
+  }
+  /* Query para móviles */
+  @media (max-width: 526px) {
+    .navegador {
+      display: block;
+      margin: auto;
+    }
+    .formularionav {
+      margin-left: -25px;
+      padding-right: 15%;
+    }
+  }
+  h4{
+      text-align: center;
+  }
+  
+  /*Cartas*/
+  .contcartas{
+    display: inline-flex;
+    
+  }
+  .card{
+    --bs-card-bg: 0;
+    color: lightblue;
+    --bs-card-border-width: 0px;
   }
 
-  /* .carrusel{
-        height: max-content;
+  .card-body{
+    background: linear-gradient(grey), (rgb(41, 41, 41));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  }
+  .cartasizq{
+      padding-left: 15%;
+  }
+  .cartasder{
+      padding-right: 15%;
+      margin-left: 5%;
+  }
+
+  img, .card{
+    max-width: 250px;
+    max-height: 300px;
+  }
+
+  @media (max-width: 798px) {
+
+    .contcartas{
         display: inline;
-        margin-left: 15%;
-    } */
-  #buscarencontrar {
-    margin-left: -15px;
-    text-align: center;
+        padding: 0%;
+        
+    }
+    .cartasizq{
+        padding-left: 0%;
+    }
+    .cartasder{
+        padding-right: 0%;
+        margin-left: 0%;
+    }
   }
-}
-
-video {
-  position: fixed;
-  object-fit: cover;
-  right: 0;
-  bottom: 0;
-  min-width: 105%;
-  min-height: 100%;
-  z-index: -10;
-}
-
-/* WEB 2 */
-
-.margenizq {
-  margin-left: 20%;
-}
-
-.salir {
-  text-align: center;
-}
-
-.formularionav {
-  display: inline-flex;
-}
-
-/* Query hasta MD */
-@media (max-width: 798px) {
-  .navegador {
-    height: max-content;
-    display: inline-flex;
-  }
-
-  #conocenos,
-  .formularionav {
-    display: inline-flex;
-  }
-  .navbar-nav {
-    display: -webkit-box;
-  }
-}
-/* Query para móviles */
-@media (max-width: 526px) {
-  .navegador {
-    display: block;
-    margin: auto;
-  }
-  .formularionav {
-    margin-left: -25px;
-    padding-right: 15%;
-  }
-}
-h4{
-    text-align: center;
-}
-
-/*Cartas*/
-.contcartas{
-    display: inline-flex;
-}
-.cartasizq{
-    padding-left: 15%;
-}
-.cartasder{
-    padding-right: 15%;
-    margin-left: 5%;
-}
