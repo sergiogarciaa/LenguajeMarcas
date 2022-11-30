@@ -1,84 +1,121 @@
-#logo{
-    height: 120px;
+#logo {
+  height: 95px;
 }
-#navegador{
-    margin-left: 25px;
+
+.navegador {
+  margin-left: 25px;
 }
+
+#buscarencontrar {
+  text-align: center;
+}
+
 /* Media query hasta MD sin incluirlo*/
-@media(max-width: 798px){
-    #logo{
-        height: 120px;
-    }
-    #buscarencontrar{
-        margin-left: -15px;
-        text-align: center;
-    }
+@media (max-width: 798px) {
+
+  #buscarencontrar {
+    margin-left: -15px;
+  }
 }
+
 /* Inicio de sesión */
 
 .cuerpo {
-    padding-top: 8%;
-}
-.formulario{
-    background: linear-gradient(grey), (rgb(41, 41, 41));
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgb(138, 138, 138, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding-top: 8%;
 }
 
+.formulario {
+  background: linear-gradient(grey), (rgb(41, 41, 41));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgb(138, 138, 138, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
 
 /* Media query hasta MD sin incluirlo*/
-@media(max-width: 798px){
-    .cuerpo{
-        display: block!important;
-    }
-    .formulario{
-        height: max-content;
-        display: inline;
-    }
-    /* .carrusel{
+@media (max-width: 798px) {
+  .cuerpo {
+    display: block !important;
+  }
+
+  .formulario {
+    height: max-content;
+    display: inline;
+  }
+
+  /* .carrusel{
         height: max-content;
         display: inline;
         margin-left: 15%;
     } */
-    #buscarencontrar{
-        margin-left: -15px;
-        text-align: center;
-    }
+  #buscarencontrar {
+    margin-left: -15px;
+    text-align: center;
+  }
 }
 
-  
-  video {
-    position: fixed;
-    object-fit: cover;
-    right: 0;
-    bottom: 0;
-    min-width: 105%;
-    min-height: 100%;
-    z-index: -10;
+video {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+/* WEB 2 */
+
+.margenizq {
+  margin-left: 20%;
+}
+
+.salir {
+  text-align: center;
+}
+
+.formularionav {
+  display: inline-flex;
+}
+
+/* Query hasta MD */
+@media (max-width: 798px) {
+  .navegador {
+    height: max-content;
+    display: inline-flex;
   }
 
-  /* WEB 2 */
-  
-.margenizq{
-    margin-left: 20%;
+  #conocenos,
+  .formularionav {
+    display: inline-flex;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+  }
 }
-.salir{
+/* Query para móviles */
+@media (max-width: 526px) {
+  .navegador {
+    display: block;
+    margin: auto;
+  }
+  .formularionav {
+    margin-left: -25px;
+    padding-right: 15%;
+  }
+}
+h4{
     text-align: center;
 }
-    .formularionav {
-        display: inline-flex;
-    }
-    #buscarencontrar{
-        background-color: aquamarine;
-    }
-@media(max-width: 798px){
-    #navegador {
-            height: max-content;
-            display: inline-flex;
-        }
-    #conocenos, .formularionav{
-        display: inline-flex;
-    }
+
+/*Cartas*/
+.contcartas{
+    display: inline-flex;
+}
+.cartasizq{
+    padding-left: 15%;
+}
+.cartasder{
+    padding-right: 15%;
+    margin-left: 5%;
 }
