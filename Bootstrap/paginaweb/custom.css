@@ -54,7 +54,7 @@
     }
   }
   
-  video {
+  video, .fondoabout {
     position: fixed;
     object-fit: cover;
     right: 0;
@@ -85,13 +85,14 @@
       display: inline-flex;
     }
   
-    #conocenos,
+    #conocenos, #alquileres
     .formularionav {
       display: inline-flex;
     }
     .navbar-nav {
       display: -webkit-box;
     }
+   
   }
   /* Query para móviles */
   @media (max-width: 526px) {
@@ -107,50 +108,61 @@
   h4{
       text-align: center;
   }
+  #logop2{
+    height: 50px;
+  }
   
   /*Cartas*/
-  .contcartas{
-    display: inline-flex;
-    
-  }
   .card{
     --bs-card-bg: 0;
     color: lightblue;
     --bs-card-border-width: 0px;
-  }
-
-  .card-body{
     background: linear-gradient(grey), (rgb(41, 41, 41));
     backdrop-filter: blur(10px);
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-
+    width: 350px!important;
   }
-  .cartasizq{
-      padding-left: 15%;
-  }
-  .cartasder{
-      padding-right: 15%;
-      margin-left: 5%;
+  .card-img-bottom{
+    margin-top: 10px;
+    border-radius: 20px;
   }
 
-  img, .card{
-    max-width: 250px;
-    max-height: 300px;
+  /* CONOCENOS */
+  .tablacarr{
+    width: 75%;
+    margin-left: 12%;
+    border: 5px solid black;
+    margin-top: 23%;
   }
-
-  @media (max-width: 798px) {
-
-    .contcartas{
-        display: inline;
-        padding: 0%;
-        
+  .carousel-indicators{
+    top: 95%;
+  }
+  @media (max-width: 1399px) {
+    .tablacarr {
+      margin-top: 27%;
     }
-    .cartasizq{
-        padding-left: 0%;
+  }
+  @media (max-width: 1199px) {
+    .tablacarr {
+      margin-top: 33%;
     }
-    .cartasder{
-        padding-right: 0%;
-        margin-left: 0%;
+  }
+  @media (max-width: 991px) {
+    .tablacarr {
+      margin-top: 40%;
     }
+  }
+  @media (max-width: 767px) {
+    .tablacarr {
+      margin-top: 48%;
+      margin-bottom: 5%;
+    }
+  }
+  .borde{
+    border: 5px solid black;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    top: 50%;
+    bottom: 50%;
   }

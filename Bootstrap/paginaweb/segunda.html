@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!-- Links-->
+  <script src="https://kit.fontawesome.com/d72fd9b3a9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,9 +20,9 @@
     poster="https://carontestudio.com/img/contacto.jpg"></video>
   <header>
     <!-- Creación de la barra de navegación,  expandido hasta llegar a SM -->
-    <nav class="navbar navbar-expand-md navbar-dark" aria-label="Third navbar example">
+    <nav class="navbar navbar-expand-md navbar-dark bg-gradient bg-transparent h-25" aria-label="Third navbar example">
       <div class="container-fluid col-12">
-        <img src="image/logo.png" alt="logo" id="logo" class="navbar-brand">
+        <img src="image/logo.png" alt="logo" id="logop2" class="navbar-brand">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
           aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,66 +31,79 @@
         <div class="collapse navbar-collapse navegador" id="navbarsExample03">
           <ul class="navbar-nav me-auto mb-smflex-0 listadesordenada d-">
             <li class="nav-item">
-              <a class="nav-link" href="#" id="conocenos">Conócenos</a>
+              <a class="nav-link" href="conocenos.html" id="conocenos">Conócenos</a>
             </li>
             <li>
               <form class="formularionav">
                 <input
-                  class="form-control mx-5 bg-gradient text-white border-1 border-primary border-opacity-25 bg-transparent"
+                  class="form-control mx-5 text-black border-1 border-primary border-opacity-100 bg-white bg-opacity-75"
                   type="text" placeholder="Busca y Encuentra" aria-label="Search" id="buscarencontrar">
               </form>
             </li>
           </ul>
 
           <a href="index.html" type="button"
-            class="btn bg-gradient text-white border-1 border-primary border-opacity-25 bg-transparent btn-block salir">
+            class="btn text-white border-1 border-primary border-opacity-50 bg-transparent btn-block salir">
             Salir </a>
         </div>
       </div>
     </nav>
   </header>
 
-  <h4>Barcos Disponibles<i class="fa-solid fa-anchor"></i></h4>
   <div class="container">
-    <div class="col-12 contcartas text-center">
-      <div class="col py-5 cartasizq">
-        <div class="card">
-          <div class="card-body cart1 bg-opacity-10">
-            <h4 class="card-title">Fiart Mare 41</h4>
-            <img src="image/BarcoManV12.jpg" alt="Fiart Mare 41" class="card-img-top">
-            <p class="card-text my-2">Lancha Fiart Mare 41</p>
-            <a href="#" class="card-link">Más información</a>
-          </div>
-        </div>
-        <br>
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Joker Boat Clubman 28</h4>
-            <img src="image/joker.jpeg" alt="Joker Boat Clubman 28" class="card-img-top">
-            <p class="card-text my-2 mb-5">Joker Boat Clubman 28</p>
-            <a href="#" class="card-link">Más información</a>
-          </div>
-        </div>
-      </div>
-      <div class="col py-5 cartasder">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Rinker Rinker 280</h4>
-            <img src="image/Rinker.jpeg" alt="Rinker" class="card-img-top">
-            <p class="card-text">Lancha Michel Dufour Sortilége</p>
-            <a href="#" class="card-link">Más información</a>
-          </div>
-        </div>
-        <br>
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Capelli Tempest Tempest 40 Luxury Line</h4>
-            <img src="image/capelli.jpeg" alt="Capelli Tempest Tempest 40 Luxury Line" class="card-img-top">
-            <p class="card-text my-2 mb-2">Semirrigido Capelli Tempest 40 Luxury Line</p>
-            <a href="#" class="card-link">Más información</a>
-          </div>
-        </div>
-      </div>
+    <h1 class="text-center mt-5">NavMare <i class="fa-solid fa-ship"></i></h1>
+    <h5 class="mt-3 text-center">Barcos Disponibles</h5> 
+    <div class="row col-md-12 justify-content-evenly mt-5">
+                <div class="card text-center mb-5 text-warning" style="width:400px">
+                  <img class="card-img-bottom" src="image/joker.jpeg" alt="joker">
+                  <div class="card-body">
+                    <h4 class="card-title">ZODIAC NEUMÁTICA JOKER BOAT<h4>
+                    <p class="card-text text-decoration-underline">14.000 €.</p>
+                    <a href="https://www.milanuncios.com/lanchas-neumaticas/zodiac-neumatica-joker-boat-451833846.htm" class="btn btn-outline-warning">Más información</a>
+                  </div>
+                </div>
+                <div class="card text-center mb-5 text-warning" style="width:400px">
+                  <img class="card-img-bottom" src="image/capelli.jpeg" alt="capelli">
+                  <div class="card-body">
+                    <h4 class="card-title">Capelli Tempest 850 WA</h4>
+                    <p class="card-text text-decoration-underline">€78.000</p>
+                    <a href="https://es.boats.com/barcos-a-motor/2013-capelli-tempest-850-wa-8568261/" class="btn btn-outline-warning">Más información</a>
+                  </div>
+                </div>
+                <div class="card text-center mb-5 text-warning" style="width:400px">
+                  <img class="card-img-bottom pt-5" src="image/Barco2.jpg" alt="Barco2">
+                  <div class="card-body">
+                    <h4 class="card-title">Bénéteau FLYER 8 V2 SUNDECK</h4>
+                    <p class="card-text">143.500 €.</p>
+                    <a href="https://www.topbarcos.com/italia/barche-usate/beneteau-flyer-8-v2-sundeck" class="btn btn-outline-warning">Más información</a>
+                  </div>
+                </div>
+    </div>
+    <div class="row col-md-12 mt-3 justify-content-evenly">
+                <div class="card text-center mb-5 text-warning" style="width:400px">
+                  <img class="card-img-bottom" src="image/Rinker.jpeg" alt="Rinker">
+                  <div class="card-body">
+                    <h4 class="card-title">Rinker 260</h4>
+                    <p class="card-text">28.899 €  <p class="text-bg-danger">HA BAJADO 3.468 €.</p></p>
+                    <a href="https://www.topbarcos.com/yachting/used-boats/rinker-260" class="btn btn-outline-warning">Más información</a>
+                  </div>
+                </div>
+                <div class="card text-center mb-5 text-warning" style="width:400px">
+                  <img class="card-img-bottom mt-5" src="image/BarcoManV12.jpg" alt="V12">
+                  <div class="card-body">
+                    <h4 class="card-title">Princess V65</h4>
+                    <p class="card-text mb-5">489.000 €.</p>
+                    <a href="https://www.topbarcos.com/barcos-ocasion/princess-v65-26" class="btn btn-outline-warning">Más información</a>
+                  </div>
+                </div>
+                <div class="card text-center mb-5 text-warning" style="width:400px">
+                  <img class="card-img-bottom mt-5" src="image/yasmina.jpg" alt="Yasmina">
+                  <div class="card-body">
+                    <h4 class="card-title">Moody 336</h4>
+                    <p class="card-text mb-5">45.000 €</p>
+                    <a href="https://www.topbarcos.com/barcos-ocasion/moody-336" class="btn btn-outline-warning">Más información</a>
+                  </div>
+                </div>
     </div>
   </div>
 </body>
