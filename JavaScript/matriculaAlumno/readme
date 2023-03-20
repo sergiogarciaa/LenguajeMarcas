@@ -1,0 +1,14 @@
+Crea una aplicación javascript con interacción del usuario por consola que se utilizará para la asignación de portátiles en préstamo a alumnos que se matriculan en un centro de estudios.
+
+De cada alumno tendremos que guardar su identificador de alumno, nombre, apellidos y teléfono. De cada portátil tendremos que guardar el identificador del portátil, su marca y su modelo. El identificador del portátil será la concatenación entre las tres primeras letras de la marca y las tres primeras del modelo con un guión “-” entre medias. Si la marca o el modelo tuviera menos de tres letras, se coge entera.
+
+Diseña una aplicación con el siguiente menú:
+- Matrícula de alumno (se pedirá: nombre, apellidos, teléfono, marca portátil y modelo portátil)
+- Borrar alumno (se borrará la información del alumno y del portátil en cuestión, a partir de la solicitud del identificador del alumno.
+- Listar alumnos con su portátil asignado (se mostrará: identificador del alumno, nombre, apellidos, teléfono, identificador portátil). La lista deberá contener el nombre de los campos.
+- Salir.
+
+
+
+Creado con Eclipse IDE for Enterprise Java and Web Developers - 2022-12
+Desarrollado por Sergio García Barrera.
