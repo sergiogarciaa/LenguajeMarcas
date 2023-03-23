@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Asignación de Portatiles</title>
-<script src="script/config.js"></script>
+    <meta charset="ISO-8859-1">
+    <title>AsignaciÃ³n de Portatiles</title>
+    <script src="script/config.js"></script>
+    <style>
+        table, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-	<button onclick="matricularAlumno()">Matricula de Alumno</button>
-	<button onclick="borrarAlumno()">Borrar Alumno</button>
-	<button onclick="listarAlumnos()">Listar Alumnos</button>
-	<button onclick="limpiarConsola()">Limpiar Consola</button>
-	
+
+    <table>
+        <thead style="border-bottom: 1px solid black;">
+            <th colspan="3" style="text-align: center;">Alumnos Portatiles</th>
+        </thead>
+        <tbody>
+            <tr style="border: 1px solid black;">
+                <td><button onclick="matricularAlumno()">Matricula de Alumno</button></td>
+                <td><button onclick="listarAlumnos()">Listar Alumnos</button></td>
+                <td><button onclick="borrarAlumno()">Borrar Alumno</button></td>
+            </tr>
+            <tr>   
+                <td colspan="3" style="text-align: center;">
+                    <button onclick="limpiarConsola()">Limpiar Consola</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
