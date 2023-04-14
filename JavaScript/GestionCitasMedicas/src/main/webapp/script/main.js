@@ -91,13 +91,29 @@ function verCitas(){
     for (let i = 0; i < citasId.length; i++){
         console.log(citasId[i]);
     }
-    let BuscarId = prompt("Que ID desea explorar?: ")
-    console.log(citas.at(BuscarId-1));
-
+    let BuscarId = prompt("Que ID desea explorar?: ");
+    let encontrada = false;
+    for (let i = 0; i < citasId.length; i++) {
+        if (citasId[i] === parseInt(BuscarId)) {
+            console.log(citas[i]);
+            encontrada = true;
+            break;
+        }
+    }
+    if (!encontrada) {
+        console.log("No hay ninguna cita con ese ID.");
+    }
 }
+
+
 function borrarCita(){
     let BuscarId = prompt("Que cita desea borrar?: ")
-    var indice = citas.indexOf(BuscarId); // obtenemos el indice
-    citas.splice(indice, 1); // 1 es la cantidad de elemento a elimina
-    citasId.splice(indice, 1);
+    var indice = citasId.indexOf(parseInt(BuscarId)); // obtenemos el indice
+    if(indice !== -1){
+		citas.splice(indice, 1); // Elimina la cita
+    	citasId.splice(indice, 1); // Elimina el ID de la cita
+	}else{
+		document.write("No existe ninguna cita con el ID: " + BuscarId);
+	}
+    
 }
