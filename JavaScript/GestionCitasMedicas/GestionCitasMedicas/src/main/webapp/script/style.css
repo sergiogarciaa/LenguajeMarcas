@@ -1,0 +1,16 @@
+.formularioCaja {
+  border: 1px solid black;
+  width: 350px;
+}
+#citaCreada {
+  justify-content: right;
+  display: inline-flex;
+  text-align: left;
+}
+.formCont {
+  margin-top: 20px;
+}
+
+.imagen {
+  width: 25%;
+}
