@@ -1,0 +1,56 @@
+#logo {
+    height: 95px;
+  }
+  
+  .navegador {
+    margin-left: 25px;
+  }
+  
+  #buscarencontrar {
+    text-align: center;
+  }
+  
+  /* Media query hasta MD sin incluirlo*/
+  @media (max-width: 798px) {
+  
+    #buscarencontrar {
+      margin-left: -15px;
+    }
+  }
+  
+  /* Inicio de sesión */
+  
+  .cuerpo {
+    padding-top: 8%;
+  }
+  
+  .formulario {
+    background: linear-gradient(grey), (rgb(41, 41, 41));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgb(138, 138, 138, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  /* Media query hasta MD sin incluirlo*/
+  @media (max-width: 798px) {
+    .cuerpo {
+      display: block !important;
+    }
+  
+    .formulario {
+      height: max-content;
+      display: inline;
+    }
+  
+    /* .carrusel{
+          height: max-content;
+          display: inline;
+          margin-left: 15%;
+      } */
+    #buscarencontrar {
+      margin-left: -15px;
+      text-align: center;
+    }
+  }
+ 
