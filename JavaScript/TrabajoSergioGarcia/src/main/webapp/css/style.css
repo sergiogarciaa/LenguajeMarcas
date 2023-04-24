@@ -1,0 +1,37 @@
+#logo {
+    height: 95px;
+  }
+  
+  .formulario {
+    background: linear-gradient(grey), (rgb(41, 41, 41));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgb(138, 138, 138, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+
+#boton-continuar{
+  text-align: -webkit-center;
+}
+
+/*  Grafico Donut */
+.bodyGrafico {
+  text-align: center;
+  color: green;
+}
+.h2Grafico {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  font-size: 40px;
+}
+#General, #Municipal {
+  width: 370px !important;
+  height: 370px !important;
+}
+
+.carga{
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
