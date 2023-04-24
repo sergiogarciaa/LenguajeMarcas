@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votaciones Municipales</title>
+    <title>Votaciones Generales</title>
 
     <script src="https://kit.fontawesome.com/d72fd9b3a9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -22,7 +22,7 @@
         <img src="img/boceto.png" height=80 class="d-inline-block text-center align-top" alt=Bootstrap>
         </div>
         <div class="col-4">
-        <h4 class="mt-4 text-center"> Votaciones Municipales </h4>
+        <h4 class="mt-4 text-center"> Votaciones Generales </h4>
         </div>
         <div class="col-4 text-end">
         <button type="button" class="btn btn-outline-dark mt-4"><a href="menu.html" class="text-decoration-none text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
@@ -34,7 +34,7 @@
         <!-- FORMULARIO  -->
         <form>
             <div class="col-12 justify-content-center container-fluid d-flex formulario" style="margin-top: 200px; width: 350px;">
-                <div class="col-6 text-end">
+                <div class="col-6 text-end my-2">
                     <input class="form-check-input" type="radio" name="exampleRadios" id="PSOE" value="option2" checked>
                     <label class="form-check-label" for="PSOE">
                         PSOE
@@ -54,27 +54,17 @@
                     <label class="form-check-label" for="VOX">
                       VOX
                     </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="PACMA" value="option2">
-                    <label class="form-check-label" for="PACMA">
-                        PACMA
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="CIUDA" value="option2">
-                    <label class="form-check-label" for="CIUDA">
-                        CIUDADANOS
-                    </label>
                 </div>
                     
-                <div class="col-6" style="margin-left: 50px;">
+                <div class="col-6 my-2" style="margin-left: 50px;">
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="OTROS" value="option2">
                         <label class="form-check-label" for="OTROS">
                             OTROS
                         </label>
                       </div>
-                      <div style="margin-top: 95px; margin-left: 5px;"> 
-                        <button class="btn btn-outline-primary" onclick="votarMuni()">
+                      <div style="margin-top: px; margin-left: 5px;"> 
+                        <button class="btn btn-outline-primary" onclick="votarGenerales()">
                             Votar
                         </button>
                     </div>
